@@ -1,4 +1,10 @@
 #form {
   background-color: crimson;
   padding: 20px;
+};
+
+ul {
+  text-align: center;
+  margin-top: 15px;
+  padding: 20px;
 }

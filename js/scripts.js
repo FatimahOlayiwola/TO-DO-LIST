@@ -10,8 +10,11 @@ $(document).ready(function() {
     $("#list").append("<li>" + DESCRIPTION +"</li>");
     $("#list").append("<li>" + DATE +"</li>");
 
-
     $("#output").show();
 
+    
+    $("#output").click(function(){
+      $("#output").hide();
+    });
   });
 });
